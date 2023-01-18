@@ -18,6 +18,7 @@
     <modules>
         <module>EurekaServer</module>
         <module>EurekaClient</module>
+        <module>EurekaFeignClient</module>
     </modules>
     
 </project>
