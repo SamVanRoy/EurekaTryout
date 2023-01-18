@@ -14,6 +14,9 @@
     <groupId>sam.van.roy</groupId>
     <artifactId>EurekaTryout</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-
+    <packaging>pom</packaging>
+    <modules>
+        <module>EurekaServer</module>
+    </modules>
     
 </project>
