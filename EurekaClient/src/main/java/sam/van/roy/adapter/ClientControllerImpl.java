@@ -9,7 +9,8 @@ import sam.van.roy.core.ClientController;
 public class ClientControllerImpl implements ClientController {
 
     @Override
-    public void helloWorld() {
+    public String helloWorld() {
         log.info("Hello World!");
+        return "Hello World";
     }
 }
