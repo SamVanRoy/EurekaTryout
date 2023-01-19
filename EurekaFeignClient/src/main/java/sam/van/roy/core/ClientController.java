@@ -4,8 +4,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@FeignClient("spring-cloud-eureka-client")
+@FeignClient(name = "spring-cloud-eureka-client", path = "/eureka-client")
 public interface ClientController {
-    @GetMapping("/eureka-client/hello")
+    @GetMapping("/hello")
     String helloWorld();
 }
