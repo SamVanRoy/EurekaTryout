@@ -6,3 +6,5 @@ spring:
   cloud:
     client:
       hostname: ${spring.cloud.client.ip-address:localhost}
+    config:
+      override-system-properties: false
