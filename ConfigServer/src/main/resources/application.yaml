@@ -8,3 +8,7 @@ spring:
       hostname: ${spring.cloud.client.ip-address:localhost}
     config:
       override-system-properties: false
+      server:
+        native:
+          search-locations:
+            classpath:/config/client-config-first
