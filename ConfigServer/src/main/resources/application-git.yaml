@@ -6,3 +6,12 @@ spring:
   cloud:
     config:
       override-system-properties: false
+      server:
+        git:
+          uri: https://github.com/SamVanRoy/EurekaTryout.git
+          clone-on-start: true
+          search-paths:
+            ConfigServer/src/main/resources/config/client-config-first
+          username: xxx
+          password: yyy
+          default-label: master
